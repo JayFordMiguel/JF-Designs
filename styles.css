@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/landingPage/landingPageBG.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'General Sans', sans-serif;
+                                                
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+.active {
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.nav-item a {
+    color: #ebebeb;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+                                                
+}
+
+.nav-item a:hover {
+    color: orange;
+}
+
+/*********************************************/
+
+.container {
+    position: relative;
+}
+
+main p {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    color: #ebebeb;
+                                                
+}
+
+#jf {
+    position: absolute;
+    height: 600px;
+    right: 0;
+    left: 0;
+    top: 120px;
+    margin: auto;
+    z-index: 1;
+}
+
+.hey {
+    font-weight: 700;
+    text-align: center;
+    color: #FFA96C;
+    font-size: 80px;
+    letter-spacing: 3px;
+}
+
+.description {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 30px;
+    text-align: center;
+    font-size: 18px;
+    z-index: 2;
+}
+
+/***TABLET DISPLAY***/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .hey {
+        font-size: 150px;
+        letter-spacing: 5px;
+    }
+}
+
+/********DESKTOP DISPLAY*******/
+@media screen and (min-width: 1024px) {
+    .hey {
+        font-size: 200px;
+        letter-spacing: 10px;
+    }
+}

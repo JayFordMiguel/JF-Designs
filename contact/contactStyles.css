@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/landingPage/landingPageBG.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'General Sans', sans-serif;
+                                                
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+.active {
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.nav-item a {
+    color: #ebebeb;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+                                                
+}
+
+.nav-item a:hover {
+    color: orange;
+}
+
+/***************CUSTOM CSS***************/
+
+main {
+    color: #ebebeb;
+    font-family: 'General Sans', sans-serif;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.form-control {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.12);
+}
+
+.btn {
+    font-weight: 500;
+    color: #ebebeb;
+    background-color: #ffa960;
+    border: 1px solid rgba(0, 255, 229, 0.18)
+}
+
+.btn:hover {
+    background-color: #ffa960;
+    color: #0b0b0b;
+}

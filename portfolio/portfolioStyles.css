@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(../images/landingPage/landingPageBG.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'General Sans', sans-serif;
+                                                
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  }
+
+.active {
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.nav-item a {
+    color: #ebebeb;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 500;
+                                                
+}
+
+.nav-item a:hover {
+    color: orange;
+}
+
+/*********************Custom Css******************/
+
+.myPortfolio {
+    color: #ebebeb;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4em;
+}
+
+.card {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.12);
+}
+
+.card-body {
+    color: #ebebeb;
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #ebebeb;
+    font-weight: 700;
+}
+
+.card-text {
+    font-family: 'Cabinet Grotesk', sans-serif;
+    color: #ebebeb;
+}
+
+.btn {
+    color: #83cfc5;
+    border: 1px solid rgba(0, 255, 229, 0.18)
+}
+
+.btn:hover {
+    background-color: #ffc36c;
+    color: #0b0b0b;
+}
