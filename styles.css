@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(../images/landingPage/landingPageBG.png);
+    background-image: url(./images/landingPage/landingPageBG.png);
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
